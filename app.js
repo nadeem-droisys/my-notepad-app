@@ -35,7 +35,7 @@ function showNotes(myTime) {
   
   let html = "";
   notesObj.forEach((element, index) => {
-    html += `<div class="noteCard card mx-3" style="margin-bottom: 2rem; width: 42%;">
+    html += `<div class="noteCard card mx-3" style="margin-bottom: 2rem; width: 40%;">
         <div class="card-body">
           <h5 class="card-title">${index + 1} ${element.title}</h5>
           <p style="color: grey">${element.text}
