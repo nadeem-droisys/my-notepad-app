@@ -38,8 +38,8 @@ function showNotes(myTime) {
     html += `<div class="noteCard card mx-3" style="margin-bottom: 2rem; width: 40%;">
         <div class="card-body">
           <h5 class="card-title">${index + 1} ${element.title}</h5>
-          <p style="color: grey">${element.text}
-          </p>
+          <small style="color: grey">${element.text}
+          </small>
           <p class="card-text">${element.time}
           </p>
           <button id="${index}" onclick = "deleteNote(this.id)" id="deleteBtn" class="btn btn-primary">Delete note</button>
