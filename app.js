@@ -53,6 +53,8 @@ function showNotes(myTime) {
     notesElm.innerText = `Add a note to see something!`;
   }
 }
+
+// deleting functiom
 function deleteNote(index){
     let notes = localStorage.getItem("notes");
     if (notes == null) {
